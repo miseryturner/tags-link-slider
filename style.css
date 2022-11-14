@@ -1,0 +1,15 @@
+.slider_item {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.slider_item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
